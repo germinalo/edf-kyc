@@ -37,7 +37,7 @@ class Welcome extends Component {
   render () {
     return (
       <WelcomeWrap>
-        <h4>EDF KYC Provider</h4>
+        <h4>EDF KYC Provider - Demo base on uPort</h4>
         <SubText>Service d'authentification d'adresse</SubText>
         <ConnectUport
           onClick={this.connectUport}>
